@@ -1,0 +1,58 @@
+@charset "UTF-8";
+* {font-family:"맑은 고딕";}
+body {margin:0;}
+ul,ol,li {list-style:none; margin:0; padding:0;}
+table, tr, th ,td {margin:0; padding:0; }
+
+#sub_3 {width:100%; height:2100px; margin:10px 0 0 0; background-color: #f3f3f3; padding:70px;}
+#sub_3 > #title {width:1000px; height:50px; margin: 20px auto;}
+#sub_3 > #title > h1 {font-size:20px; font-weight:bold; color:#585858; margin:0 0 0 366px;}
+
+/*top*/
+#sub_3 > #subbox {width:1000px; height:700px; background-color:#fff; margin:30px auto; padding:5px;}
+#sub_3 > #subbox > .title_1 {width:900px; height:70px; margin:0 auto; border-bottom:1px solid #f1f1f1;}
+#sub_3 > #subbox > .title_1 > h1 {font-size:20px; font-weight:bolder; color: rgb(255, 199, 47); float:left; margin:25px 0 10px 0;}
+#sub_3 > #subbox > .title_1 > h2 {font-size:15px; font-weight:bold; color: #585858; float:right; margin:30px 10px 0 0;}
+#sub_3 > #subbox > .title_1 > h2 > b {color:rgb(255, 105, 105);}
+
+#sub_3 > #subbox > .section {width:600px; height:550px;  margin:40px auto; padding:10px;}
+#sub_3 > #subbox > .section > form > table {width:550px; height:500px; margin:20px auto;}
+.section form table th {width:180px; font-size: 17px; text-align:left; font-weight:bold; color: #585858; margin:0 0 0 20px;}
+.section form table th b {color:rgb(255, 105, 105); margin:0 0 0 20px;}
+.section form table input {border:2px solid #e4e4e4; background-color: #e4e4e4; padding:4px; margin:0 0 0 30px;}
+.section form table input:hover {background-color: rgb(255, 235, 181); border:2px solid rgb(255, 235, 181);}
+.section form table input[type=submit] {border-radius:2px; font-size: 12px; background-color:#999999; color:#fff; border:none; margin:0 0 0 10px; cursor:pointer; padding:5px 5px;}
+.section form table input[type=submit]:hover {background-color: rgb(255, 136, 0);}
+.section form table tr span {font-size: 13px; color: #585858;  margin:0 0 0 10px;}
+
+
+/*bottom*/
+#sub_3 > #subbox_2 {width:1000px; height:430px; background-color:#fff; margin:30px auto; padding:5px;}
+#sub_3 > #subbox_2 > .title_2 {width:900px; height:70px; margin:0 auto; border-bottom:1px solid #f1f1f1;}
+#sub_3 > #subbox_2 > .title_2 > h1 {font-size:20px; font-weight:bolder; color: rgb(255, 199, 47); float:left; margin:25px 0 10px 0;}
+
+#sub_3 > #subbox_2 > .section_2 {width:600px; height:300px;  margin:30px auto; padding:5px;}
+#sub_3 > #subbox_2 > .section_2 > form > table {width:550px; height:350px; margin:20px auto; }
+.section_2 form table th {width:180px; font-size: 17px; text-align:left; font-weight:bold; color: #585858; margin:10px 0 0 20px; float:left;}
+.section_2 form table input {border:2px solid #e4e4e4; background-color: #e4e4e4; padding:4px; margin:0 0 0 30px;}
+.section_2 form table input:hover {background-color: rgb(255, 235, 181); border:2px solid rgb(255, 235, 181);}
+.section_2 form table input[type=submit] {border-radius:2px; font-size: 12px; background-color:#999999; color:#fff; border:none; margin:0 0 0 10px; cursor:pointer; padding:5px 5px;}
+.section_2 form table input[type=submit]:hover {background-color: rgb(255, 136, 0);}
+.section_2 form table tr span {font-size: 13px; color: #585858;  margin:0 0 0 10px;}
+.section_2 form table input[type=text] {width:200px; margin:10px;}
+
+/*bottom_2*/
+#agree {width:1000px; height:450px; background-color:#fff; margin:30px auto; padding:5px;}
+#agree > .title_3 {width:900px; height:70px; margin:0 auto; border-bottom:1px solid #f1f1f1;}
+#agree > .title_3 > h1 {font-size:20px; font-weight:bolder; color: rgb(255, 199, 47); float:left; margin:25px 0 10px 0;}
+#agree > .title_3 > .section_3 {width:600px; height:240px; margin:30px auto; padding:10px;}
+.section_3 > form > table {width:550px; height:240px; margin:40px auto;}
+.section_3 form table tr th {width:180px; font-size: 17px; text-align:left; font-weight:bold; color: #585858; margin:20px 0 0 20px; float:left; }
+.section_3 form table tr td input[type=radio] {margin:5px 30px 10px 0; float:left;}
+.section_3 form table tr td {line-height:20px; font-size:15px; margin:20px 0 10px 0; float:left;  color: #222222; font-weight:bold; }
+.section_3 form table tr td p {color:rgb(255, 136, 0); margin:5px;}
+
+/*button*/
+#sub_3 > .button {width:800px; height:200px; margin:30px auto;}
+#sub_3 > .button > button {background-color: rgb(255, 136, 0); color:#fff; border-radius:5px; padding:5px; width:200px; height:50px; margin:50px 0 0 300px; border:none; font-size:15px;}
+#sub_3 > .button > button:hover {cursor: pointer;}

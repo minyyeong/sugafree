@@ -1,0 +1,82 @@
+@charset "utf-8";
+      * {margin:0; padding:0; box-sizing:border-box; font-family:"맑은 고딕";}
+      ul, ol, li {list-style:none; margin:0; padding:0;}
+#kakao {width:100%; height:35px; background-color:gold;}
+      #kakao > #box {width:700px; height:35px; margin:0 auto; text-align:center;}
+      #kakao > #box > h3 > a {font-size:15px; text-decoration:none; font-weight:150; 
+        color:#000; margin:0 auto; line-height:35px; font-family: 'Noto Sans KR', sans-serif; font-weight:400;}
+
+      /*header*/
+      header {width:1580px; height:100px; margin:0 auto; display:flex; justify-content: space-between; align-items: center;}
+      header > #box1 {width:200px; height:20px;}
+      header > #box2 {width:120px; height:50px; margin:0 0 0 100px;}
+      header > #box3 {width:320px; height:20px;}
+
+      /*logo*/
+      #logo {width:100px; height:50px; margin:0 auto;}
+      #logo > a > img {width:100%; height:100%;}
+
+      /*login1*/
+      #login1 > ul {display:flex; justify-content: space-between; align-content: center;}
+      #login1 > ul > li {float:left; font-size:10px;}
+      #login1 > ul > li > a {text-decoration:none; float:left; font-size:10px; color:#999; font-family: 'Noto Sans KR', sans-serif; font-weight:300;}
+
+      /*login2*/
+      #login2 > ul {display:flex; justify-content: space-between; align-content: center;}
+      #login2 > ul > li > a {text-decoration:none; float:left; font-size:12px; color:#999; font-family: 'Noto Sans KR', sans-serif; font-weight:300;}
+      #login2 > ul > li > a:hover {color:#000;}
+
+
+      /*nav*/
+      nav {width:100%; height:70px; border-top:1px solid lightgray; display:flex; justify-content: space-around;}
+
+      nav > #box1 {width:170px; height:69px;}
+      nav > #box1 > h4> a {text-decoration:none; color:#000; font-size:15px; margin:0 50px; font-weight:100; line-height:69px; float:left;}
+
+      nav > #box2 {width:700px; height:69px; display:flex; flex-direction:row; justify-content: center;}
+      nav > #box2 > .menu {width:700px; height:69px; line-height:69px; color:#666; font-size:15px; display:flex; flex-wrap: wrap; flex-direction:row; justify-content: space-around;}
+      nav > #box2 > .menu > li {height:69px; line-height:69px; color:#a0a0a0; font-size:15px; font-family: 'Noto Sans KR', sans-serif; }
+      nav > #box2 > .menu > li > a {text-decoration:none; color:#000; float:left; }
+      nav > #box2 > .menu > li > a:hover {opacity:0.4;}
+
+      nav > #box2 > .menu > li > .sub {background-color:#fff; border:0.5px solid rgb(232, 232, 232); height:auto; width:165px; position:absolute; padding:20px; font-family: 'Noto Sans KR', sans-serif; margin:60px 0 0 -30px; display:none; z-index:100;}
+      nav > #box2 > .menu > li > .sub > li {line-height:40px;}
+      nav > #box2 > .menu > li > .sub > li > a {text-decoration:none; color:rgb(163, 163, 163); font-size:15px; font-family: 'Noto Sans KR', sans-serif; font-weight: 400;}
+      nav > #box2 > .menu > li > .sub > li > a:hover {color:#000;}
+
+      nav > #icon {width:150px; height:69px; line-height:69px;}
+      nav > #icon > .iconbox {width:60px; height:35px; float:left; margin:20px auto; line-height:45px;}
+      nav > #icon > .iconbox > a > img {width:30px; height:30px; margin:0 auto; float:right;}
+
+
+      /*footer*/
+      footer {width:100%; height:300px; margin:0 auto; float:left; background-color:#fff; border-top:1px solid lightgray;}
+      #top {width: 1260px; height:300px; background-color:#fff; margin:30px auto;}
+      #top > .cs {width:350px; height:345px; float: left; }
+      #top > .cs > h1 {text-align:center; font-size:20px; font-weight:bold; color:#000; letter-spacing:5px; margin:50px 0 0 0;}
+      #top > .cs > h2 {text-align:center; font-size:40px; font-weight:bold; color:#000; margin:20px 0 0 0;}
+      #top > .cs > h3 {text-align:center; font-size:15px; font-weight:100; color:#000; margin:20px 0 0 0;}
+
+      #top > .company {width:560px; height:345px; float: left; }
+      #top > .company > h1 {text-align:center; font-size:20px; font-weight:bold; color:#000; letter-spacing:5px; margin:50px 0 0 0; }
+      #top > .company > pre {text-align:center; font-size:12px; font-weight:100; color:#000; margin:0 auto; margin:30px 0 0 0; line-height:25px; float:left;}
+
+      #top > .bank {width:350px; height:345px; float: left; }
+      #top > .bank > h1 {text-align:center; font-size:20px; font-weight:bold; color:#000; letter-spacing:5px; margin:50px 0 0 0;}
+      #top > .bank > h2 {text-align:center; font-size:15px; font-weight:100px; color:#000; margin:30px 0 0 0; line-height:28px; font-weight:100;}
+
+      #botton {width:100%; height:155px; background-color:#fff; margin:-30px auto; border-top:1px solid lightgrey;}
+      #botton > #box {width:1260px; height:155px; margin:0 auto;}
+      #botton > #box > .imgbox {width:47px; height:30px; float:left; margin:10px 0 0 250px;}
+      #botton > #box > .imgbox > a > img {width:100%; height:100%;}
+      #botton > #box > a > img {float:left; margin:10px 0 0 10px;}
+      #botton > #box > h1 {font-size:11px; color:#999; float:left; margin:15px 0 0 20px;}
+      #botton > #box > button {display:block; background-color:#EAECEE; margin:0 0 0 20px; border:0; color:#999; 
+        font-size:10px; text-align:center; padding:5px 8px; float: left; margin:10px 0 0 10px;}
+      #botton > #box > button:hover {background-color:#000; color:#fff; cursor:pointer;}
+
+      #botton > #box > .box1 {width:240px; height:25px; float:left; margin:10px 0 0 150px;}
+      #botton > #box > .box1 > button {display:block; background-color:#EAECEE; margin:0 0 0 30px; border:0; color:#999; 
+        font-size:10px; text-align:center;padding:5px 8px; float: left; margin:0 0 0 5px;}
+      #botton > #box > .box1 > button:hover {background-color:#000; color:#fff; cursor:pointer;}
+

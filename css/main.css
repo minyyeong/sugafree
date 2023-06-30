@@ -1,0 +1,70 @@
+@charset "utf-8";  
+  * {margin:0; padding:0; box-sizing:border-box; font-family:"맑은 고딕";}
+      ul, ol, li {list-style:none; margin:0; padding:0;}
+/*slider*/
+      #slidewrap {width:1903px; height:600px; margin:0 auto; position:relative; overflow:hidden;}
+      .slide {width:7612px;}
+      .slide > li {width:1903px; height:600px; float:left;}
+      .slide > li > img {width:100%; height:100%;}
+
+      #slidewrap > span {position: absolute; top:50%; display: block; font-size:32px; line-height:23px; cursor: pointer; height:50px; transform: translateY(-50%); background: rgba(255,255,255,0.6); color:rgba(0,0,0,0.5);}
+      #slidewrap > span:hover {color:rgba(255,255,255,0.6); background-color: rgba(0,0,0,0.5);}
+      .prev {left:0; border-radius: 0 10px 10px 0px; padding:10px;}
+      .next {right:0; border-radius: 10px 0px 0px 10px; padding:10px;}
+
+     /*section*/
+    #best {width:1260px; height:200px; padding:50px 0px; margin:10px auto; display:flex; flex-flow: column wrap; align-items:center; justify-content:space-evenly;} 
+    #best > h3 {font-size:22px; color:#000; font-weight:500; letter-spacing:5px; font-family: 'Noto Sans KR', sans-serif; font-weight: 400;}
+    #best > h2 {font-size:40px; color: #000; font-weight:100;}
+    #best > p {font-size:13px; color:#999; font-family: 'Noto Sans KR', sans-serif; font-weight: 300;}
+
+     
+      section {width:100%; height:3300px; margin:0 auto;}
+      #product {width:1260px; height:1000px; margin:0 auto;}
+      #product > .box {width:285px; height:450px; margin:10px 15px 30px 15px; float:left; text-align:center; background-color:#fff;}
+      #product > .box > .img_box {width:285px; height:285px; margin:0 auto;  overflow:hidden;}
+      #product > .box > .img_box > a > img {width:285px; height:285px; margin:0 auto;}
+      #product > .box > .img_box > a > img:hover {transform:scale(1.05); transition:0.4s;}
+      #product > .box > h5 > a {width:100%; height:50px;  float:left; margin:15px 0 0 0; text-decoration:none; color:#000; text-align:center; font-size:15px; letter-spacing:-0.5px; line-height:25px; font-family: 'Noto Sans KR', sans-serif; font-weight:700;}
+
+      #product > .box > .box1 {width:285px; height:90px;margin:10px auto; float:left; border-top:1px solid lightgray;}
+      #product > .box > .box1 > p {font-size:16px; text-align:center; color:#000; margin:10px auto; font-family: 'Noto Sans KR', sans-serif; font-weight:700;}
+      #product > .box > .box1 > h6 {font-size:8px; text-align:center;}
+      #product > .box > .box1 > h6:after {content:"추천"; color:#fff; width:32px; padding:0.9px 0px; border-radius:0px; background-color:#ff4966; display:block; margin:15px auto; height:13.5px; line-height:11px; font-family: 'Noto Sans KR', sans-serif; font-weight:100; font-size:11px;}
+
+      #coupon {width:1260px; height:500px; background-color:#fff; margin:0 auto;}
+      #coupon > .box2 {width:420px; height:450px; margin:30px 0 0 0px; float:left;}
+      #coupon > .box2 > a > img {width:100%; height:400px; margin:0 auto;}
+      #coupon > .box2 > h5 {color:#000; text-align:center; margin:20px auto; font-size:15px;}
+
+      #story {width:100%; height:720px; background-color:#F4F6F6;}
+      #story > .box3 {width:1260px; height:720px; margin:20px auto;}
+      #story > .box3> h3 {text-align:center; float:left; margin:75px 0 0 594px; letter-spacing:5px; font-family: 'Kanit', sans-serif; font-weight:300; font-size:20px;}
+      #story > .box3> h4 {text-align:center; float:left; margin:10px 0 0 625px; font-weight:100;}
+      #story > .box3> .box4 {width:1230px; height:400px; background-color:#fff; margin:100px auto; float:left;}
+      #story > .box3> .box4 > img {width:630px; height:100%; margin:0 auto; float:left;}
+
+      #story > .box3> .box4 >.box4text {width:600px; height:100%; margin:0 auto; float:right; display:flex; flex-direction: column; justify-content:space-evenly; padding:30px 0 40px 0;}
+      #story > .box3> .box4 >.box4text > h3 {color:#000; margin:0 0 0 40px; float:left; font-size:30px; font-family: 'Noto Sans KR', sans-serif; font-weight:400;}
+      #story > .box3> .box4 > .box4text > p {color:#000; margin:0 0 0 40px; float:left; font-size:17px; letter-spacing:0px;  line-height:33px; font-family: 'Noto Sans KR', sans-serif; font-weight:300;}
+      #story > .box3> .box4 > .box4text > button {display:block; background-color:#fff; border:1px solid #D7DBDD; color:#000; font-size:16px; text-align:center; float:left; letter-spacing:1px; font-weight:100; margin:0 0 0 40px; font-family: 'Noto Sans KR', sans-serif; font-weight:300; padding:8px; width:210px;}
+      #story > .box3> .box4 > .box4text > button:hover {cursor:pointer; border:1px solid #4e4e4e;}
+
+      #review {width:100%; height:850px; margin:0 auto; background-color:#F4F6F6;}
+      #review > .box4 {width:1260px; height:850px; margin:0 auto;}
+      #review > .box4> h3 {text-align:center; float:left; margin:40px 0 0 555px; letter-spacing:5px; font-family: 'Kanit', sans-serif; font-weight:300; font-size:20px;}
+      #review > .box4> h4 {text-align:center; float:left; margin:10px 370px 0 630px; font-weight:100;}
+
+      #review > .box4> .box5 {width:240px; height:420px; background-color:#fff; margin:60px 0 0 10px; float:left; border:1px solid #D7DBDD;}
+      #review > .box4> .box5 > a > img {width:100%; height:250px; margin:0 auto; float:left;}
+      #review > .box4> .box5 > p > a {text-decoration:none; font-size:13px; color:#000; float:left; margin:20px 0 0 15px;}
+      #review > .box4> .box5 > pre {float:left; color:#99A3A4; margin:10px 0 0 15px; font-size:13px;}
+
+      #review > .box4> .box5 > .box6 {width:230px; height:80px; border-top:1px solid lightgray; float:left; margin:20px 4px 0 4px;}
+      #review > .box4> .box5 > .box6 > a > img {width:50px; height:50px; float:left; margin: 18px 12px;}
+      #review > .box4> .box5 > .box6> h5 > a {text-decoration:none; font-size:11px; color:#000; float:left; margin:27px 6px; font-weight:100;}
+      #review > .box4> .box5 > .box6 > h6 {font-size:11px; color:#515A5A; float: left; margin:-18px 6px; font-weight:100;}
+      #review > .box4> .box5 > .box6 > h6 > b {color:#000; font-weight:bold;}
+      #review > .box4> button {display:block; background-color:#fff; border:1px solid #D7DBDD; color:#000; font-size:16px; text-align:center;
+       padding:12px 40px; float:left; letter-spacing:1px; font-weight:100; margin:100px 0 100px 555px;}
+      #review > .box4> button:hover {cursor:pointer; border:1px solid #4e4e4e;}
